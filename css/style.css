@@ -13,7 +13,6 @@
     src: url('../fonts/steelar-font/Steelar-j9Vnj.otf') format('truetype');
 }
 
-/* General Styles */
 body, html {
     margin: 0;
     background: linear-gradient(to bottom, #020c02, #0b3d0e);
@@ -44,7 +43,6 @@ canvas {
     text-align: center;
 }
 
-/* SVG Button */
 #enterButton {
     cursor: pointer;
     width: 250px;
@@ -94,14 +92,12 @@ canvas {
 
 #mainContent.show {
     opacity: 1;
-    /* Trigger fade-in */
 }
 
 .fade-out {
     transition: opacity 2s ease;
 }
 
-/* Header Styles */
 header {
     display: flex;
     align-items: center;
@@ -114,7 +110,6 @@ header svg {
     flex-shrink: 0;
     width: 100%;
     height: auto;
-    /* Maintain aspect ratio */
 }
 
 nav ul {
